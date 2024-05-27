@@ -1,5 +1,5 @@
 # This program runs on Macbook (apple silicon)
-    Model runs on CPU, so reply is slow (around 4min).
+    Model runs on CPU, so reply is slow (around 4 minutes).
 
 # Install brew
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
