@@ -1,9 +1,8 @@
 # This program runs on Macbook (apple silicon)
     Model runs on CPU, so reply is slow (around 4min).
 
-# Install brew and wget
+# Install brew
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    $ brew install wget
 
 # Download llama model
     $ brew install git-lfs
@@ -39,7 +38,6 @@
 # PIP install [Macbook]
     $ pip3 install transformers torch
     $ pip3 install sentencepiece
-    $ pip3 install huggingface-cli
     $ pip3 install --upgrade transformers sentencepiece
 
 # Start the Flask backend
